@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Identification of Welfare Psychology</string>
+    <string name="splash_text">PSYCHOLOGICAL WELFARE TESTING</string>
+    <string name="info_kategori">Information on Psychological Welfare Categories</string>
+    <string name="login_greeting">Welcome</string>
+    <string name="login_help">Dont have account? Create here</string>
+    <string name="main_about">About Apps</string>
+    <string name="main_identification">Psycological Identification</string>
+    <string name="main_help">Help</string>
+    <string name="main_history">History</string>
+    <string name="main_logout">Logout</string>
+    <string name="tentang_text">Psychological Welfare Identification Experts are applications that can identify you in determining the psychological Welfare that you have.
+        \n\n
+        By :
+        \n\n
+        Reny Rosa E 1417051120
+        \n
+        Department of Computer Science 2018
+        \n\n
+        Contributor :
+        \n\n
+        Dosen Pembimbing 1 \t: Aristoteles, S.Si., M.Si.
+        \n
+        Dosen Pembimbing 2 \t : Moch Johan Pratama, M.Psi.
+        \n
+        Dosen Pembahas \t : Admi Syarif, Dr.Eng.
+    </string>
+    <string name="help_text">In this Menu you can identify the psychological welfare that is recommended for you based on the statement provided. When the user selects the \"identification\" menu, it will enter the statement identification menu. In this menu statements will appear from each item of psychological well-being.</string>
+    <string name="help_btn_start">Start Psycological Test</string>
+    <string name="dialog_title">Choose Category</string>
+    <string name="dialog_btn_next">Next</string>
+    <string name="test_btn_nest">Next ></string>
+    <string name="test_btn_finish">Finish</string>
+    <string name="test_btn_yes">Yes</string>
+    <string name="test_btn_no">No</string>
+    <string name="hasil_title">Your Result is :</string>
+    <string name="hasil_btn_finish">Finish</string>
+    <string name="daftar_title">Register Account</string>
+    <string name="daftar_et_nama">Fullname</string>
+    <string name="daftar_et_username">Username</string>
+    <string name="daftar_et_telp">Phone Number</string>
+    <string name="daftar_et_addres">Address</string>
+    <string name="daftar_et_password">Password</string>
+    <string name="daftar_btn_register">Register</string>
+    <string name="daftar_txt_have_account">Already have account ? Login Here</string>
+    <string name="help_btn_change_lang">Change Languange</string>
+    <string name="dialog_change_lang_title">Choose Languange</string>
+    <string name="dialog_radio_english">English</string>
+    <string name="dialog_radio_indo">Indonesian</string>
+</resources>

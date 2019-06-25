@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Identifikasi Kesejahteraan Psikologis</string>
+    <string name="splash_text">Pengujian Kesejahteraan Psikologis</string>
+    <string name="info_kategori">Informasi Kategori Kesejahteraan Psikologis</string>
+    <string name="login_greeting">Selamat Datang</string>
+    <string name="login_help">Belum Punya akun ? Daftar disini</string>
+    <string name="main_about">Tentang Aplikasi</string>
+    <string name="main_identification">Identifikasi Psikologi</string>
+    <string name="main_help">Bantuan</string>
+    <string name="main_history">Riwayat</string>
+    <string name="main_logout">Keluar</string>
+    <string name="tentang_text">Pakar Identifikasi Kesejahteraan Psikologis adalah aplikasi yang dapat mengidentifikasi anda dalam menentukan kesejahteraan pskologis yang anda miliki
+       \n\n
+        Oleh :
+        \n\n
+        Reny Rosa E 1417051120
+        \n
+        Jurusan Ilmu Komputer 2018
+        \n\n
+        Kontributor :
+        \n\n
+         Dosen Pembimbing 1 \t : Aristoteles, S.Si., M.Si.
+        \n
+        Dosen Pembimbing 2 \t : Moch Johan Pratama, M.Psi.
+        \n
+        Dosen Pembahas \t : Admi Syarif, Dr.Eng.
+    </string>
+    <string name="help_text">Pada Menu ini Anda dapat melakukan identifikasi mengenai  kesejahteraan psikologis yang disarankan untuk anda berdasarkan pernyataan yang disediakan. Ketika pengguna memilih menu “identifikasi” ,maka akan masuk ke dalam menu identifikasi pernyataan. Di menu ini akan muncul pernyataan-pernyataan dari setiap item kesejahteraan psikologis.</string>
+    <string name="help_btn_start">Mulai Tes Psikologi</string>
+    <string name="dialog_title">Pilih Kategori</string>
+    <string name="dialog_btn_next">Lanjutkan</string>
+    <string name="test_btn_nest">Selanjutnya ></string>
+    <string name="test_btn_finish">Selesai</string>
+    <string name="test_btn_yes">Ya</string>
+    <string name="test_btn_no">Tidak</string>
+    <string name="hasil_title">"Hasil Tes anda adalah : "</string>
+    <string name="hasil_btn_finish">Selesai</string>
+    <string name="daftar_title">Daftar Account</string>
+    <string name="daftar_et_nama">Nama Lengkap</string>
+    <string name="daftar_et_username">Username</string>
+    <string name="daftar_et_telp">No. Telepon</string>
+    <string name="daftar_et_addres">Alamat</string>
+    <string name="daftar_et_password">Password</string>
+    <string name="daftar_btn_register">Daftar</string>
+    <string name="daftar_txt_have_account">Anda sudah memiliki akun ? Login Disini</string>
+    <string name="help_btn_change_lang">Ganti Bahasa</string>
+    <string name="dialog_change_lang_title">Pilih Bahasa</string>
+    <string name="dialog_radio_english">Inggris</string>
+    <string name="dialog_radio_indo">Indonesia</string>
+</resources>

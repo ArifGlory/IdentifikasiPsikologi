@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#01579B</color>
+
+    <color name="background_color">#03A9F4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#3b3a3a</color>
+    <color name="button_delete">#f50101</color>
+
+    <color name="background_color_login">#3d84ff</color>
+    <color name="white_transparent_twenty">#33FFFFFF</color>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="rv_color">#e075d8ff</color>
+
+</resources>

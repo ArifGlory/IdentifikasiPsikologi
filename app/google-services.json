@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1003475371036",
+    "firebase_url": "https://psikologi-ec11e.firebaseio.com",
+    "project_id": "psikologi-ec11e",
+    "storage_bucket": "psikologi-ec11e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003475371036:android:1518715eece8aadd",
+        "android_client_info": {
+          "package_name": "com.example.fujimiya.adminpakarpsikologis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003475371036-qnsbibsfq0cem5u9ivutnfsli2utebom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fujimiya.adminpakarpsikologis",
+            "certificate_hash": "d30057599a7fd29cf1e0ad5f56589bd350f02577"
+          }
+        },
+        {
+          "client_id": "1003475371036-aqrdi09lbh0memfpelkg19es2gq51pm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3sVY6lYjts4F3PP1mGxgi1WotPw_wV00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003475371036-aqrdi09lbh0memfpelkg19es2gq51pm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003475371036:android:7feb86cdaa75b17a",
+        "android_client_info": {
+          "package_name": "com.example.fujimiya.clientpakarpsikologi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003475371036-rc5o271ar4nceq1u8b25m7b6qhl3efi2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fujimiya.clientpakarpsikologi",
+            "certificate_hash": "d30057599a7fd29cf1e0ad5f56589bd350f02577"
+          }
+        },
+        {
+          "client_id": "1003475371036-aqrdi09lbh0memfpelkg19es2gq51pm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3sVY6lYjts4F3PP1mGxgi1WotPw_wV00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003475371036-aqrdi09lbh0memfpelkg19es2gq51pm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
