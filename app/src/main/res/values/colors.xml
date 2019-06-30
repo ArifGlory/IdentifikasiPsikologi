@@ -3,6 +3,8 @@
     <color name="colorPrimary">#03A9F4</color>
     <color name="colorPrimaryDark">#0288D1</color>
     <color name="colorAccent">#01579B</color>
+    <color name="colorBg">#f1f2f5</color>
+
 
     <color name="background_color">#03A9F4</color>
     <color name="white">#FFFFFF</color>
@@ -17,5 +19,17 @@
     <color name="year">#999999</color>
     <color name="title">#222222</color>
     <color name="rv_color">#e075d8ff</color>
+
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_1000">#1a1a1a</color>
 
 </resources>

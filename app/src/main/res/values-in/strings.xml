@@ -5,8 +5,8 @@
     <string name="info_kategori">Informasi Kategori Kesejahteraan Psikologis</string>
     <string name="login_greeting">Selamat Datang</string>
     <string name="login_help">Belum Punya akun ? Daftar disini</string>
-    <string name="main_about">Tentang Aplikasi</string>
-    <string name="main_identification">Identifikasi Psikologi</string>
+    <string name="main_about">Tentang</string>
+    <string name="main_identification">Identifikasi Psikologis</string>
     <string name="main_help">Bantuan</string>
     <string name="main_history">Riwayat</string>
     <string name="main_logout">Keluar</string>
@@ -19,12 +19,7 @@
         Jurusan Ilmu Komputer 2018
         \n\n
         Kontributor :
-        \n\n
-         Dosen Pembimbing 1 \t : Aristoteles, S.Si., M.Si.
-        \n
-        Dosen Pembimbing 2 \t : Moch Johan Pratama, M.Psi.
-        \n
-        Dosen Pembahas \t : Admi Syarif, Dr.Eng.
+
     </string>
     <string name="help_text">Pada Menu ini Anda dapat melakukan identifikasi mengenai  kesejahteraan psikologis yang disarankan untuk anda berdasarkan pernyataan yang disediakan. Ketika pengguna memilih menu “identifikasi” ,maka akan masuk ke dalam menu identifikasi pernyataan. Di menu ini akan muncul pernyataan-pernyataan dari setiap item kesejahteraan psikologis.</string>
     <string name="help_btn_start">Mulai Tes Psikologi</string>
@@ -46,6 +41,38 @@
     <string name="daftar_txt_have_account">Anda sudah memiliki akun ? Login Disini</string>
     <string name="help_btn_change_lang">Ganti Bahasa</string>
     <string name="dialog_change_lang_title">Pilih Bahasa</string>
-    <string name="dialog_radio_english">Inggris</string>
+    <string name="dialog_radio_english">English</string>
     <string name="dialog_radio_indo">Indonesia</string>
+    <string name="item_category_name">Nama kategori</string>
+    <string name="cat_autonomy">Autonomi</string>
+    <string name="cat_environment">Penguasaan Lingkungan</string>
+    <string name="cat_self">Penerimaan Diri</string>
+    <string name="cat_purpose">Tujuan Hidup</string>
+    <string name="cat_positive">Hubungan baik dengan sesama</string>
+    <string name="cat_personal">Pengembangan Diri</string>
+    <string name="cat_self_desc">Kemampuan pribadi untuk menerima berbagai aspek diri mereka sendiri, baik positif maupun negatif, termasuk penerimaan pengalaman masa lalu. Penerimaan ini pada akhirnya menumbuhkan sikap positif terhadap diri sendiri. Memiliki sikap positif terhadap diri sendiri; Sikap positif tercermin dalam penerimaan berbagai aspek diri, baik aspek kekuatan diri atau aspek yang menjadi kelemahan diri, dan menerima (merasa positif) semua pengalaman masa lalu.</string>
+    <string name="cat_self_skill">Pengetahuan Mandiri \n Kesadaran Diri \n Biografis: garis waktu game \n Pikirkan yang sebaliknya</string>
+    <string name="cat_self_high">Memiliki sikap positif terhadap diri sendiri, mengenali dan menerima berbagai aspek diri mereka sendiri baik kualitas maupun buruk, merasa positif tentang kehidupan masa lalu.\n \n Waspadai kekuatan Anda \n Kenali kelemahan Anda \n Ambil pelajaran dari peristiwa masa lalu</string>
+    <string name="cat_self_low">Merasa tidak puas dengan diri sendiri, kecewa dengan apa yang terjadi di masa lalu, merasa terganggu oleh kualitas diri, berharap untuk menjadi orang lain. \n Tidak puas dengan kondisi mereka saat ini \n Merasa terganggu oleh kualitas diri \n Perasaan atau harapan untuk menjadi orang lain \n Merasa kecewa dengan masa lalu</string>
+    <string name="cat_positive_desc">Kemampuan individu untuk menjalin hubungan yang hangat dan intim dengan orang lain Memiliki hubungan positif dengan orang lain; Percayai orang lain, memiliki perasaan empati dan kasih sayang terhadap orang lain, persahabatan yang intim / mendalam</string>
+    <string name="cat_positive_high">Memiliki keramahan, kepuasan, dan kepercayaan dengan orang lain; merasa khawatir tentang kesejahteraan / keselamatan orang lain. memiliki empati, belas kasih, dan keintiman yang kuat, memahami konsep hubungan manusia yang timbal balik \n \n  Percayai orang lain (ingin membuka diri) \n  Peduli (empati) untuk kesejahteraan dan keselamatan orang lain \n  Memahami konsep saling menerima dan memberi</string>
+    <string name="cat_positive_low">Memiliki sedikit hubungan dekat dengan orang lain; merasa sulit untuk bersikap ramah, terbuka, dan memperhatikan orang lain; merasa terisolasi dan frustrasi pada hubungan interpersonal; tidak mau berkompromi untuk mempertahankan hubungan keberlanjutan yang penting dengan orang lain. \n Sulit untuk terbuka kepada orang lain \n Merasa terisolasi atau tidak dipertimbangkan dalam lingkungan sosial \n Merasa tertekan dalam membangun hubungan interpersonal \n Tidak ingin berkompromi (menghasilkan) untuk mempertahankan hubungan penting dengan orang lain</string>
+    <string name="cat_positive_skill">\n Komunikasi interpersonal - empati \n Ketegasan \n\tPenyelesaian masalah \n Keterampilan Negosiasi</string>
+    <string name="cat_autonomy_desc">Kemampuan pribadi untuk menentukan standar pribadi, dan menilai diri mereka berdasarkan pada standar-standar ini, tanpa diintimidasi oleh penilaian orang lain. Memiliki standar pribadi untuk mengevaluasi diri mereka sendiri, agar tidak meminta persetujuan atau penilaian dari orang lain. Standar-standar ini juga digunakan untuk mengatur (mengatur) perilaku, sehingga dalam menghasilkan perilaku tidak hanya didasarkan pada budaya dan norma-norma kolektif.</string>
+    <string name="cat_autonomy_high">Memiliki kemandirian dan kemandirian; mampu menahan tekanan sosial untuk berpikir dan bertindak dengan cara tertentu; mengatur perilaku dari dalam; evaluasi diri Anda berdasarkan standar pribadi. \n Memiliki penentuan nasib sendiri (percaya diri untuk mencapai sesuatu secara mandiri) \n Mampu menjaga kepercayaan dalam keputusan dari tekanan / tuntutan sosial \n Mampu mengatur perilaku secara mandiri \n Evaluasi diri Anda berdasarkan standar pribadi yang telah ditetapkan</string>
+    <string name="cat_autonomy_low">Memberi terlalu banyak perhatian tentang harapan dan evaluasi dari orang lain; bergantung pada penilaian dari orang lain untuk membuat keputusan penting; tunduk pada tekanan sosial untuk berpikir dan bertindak dengan cara tertentu. \n Tergantung pada pengaruh / penilaian orang lain \n Ambil keputusan berdasarkan standar orang lain \n Perilaku dipengaruhi oleh norma / tuntutan lingkungan</string>
+    <string name="cat_autonomy_skill">\n Penentuan Nasib Sendiri \n Resiliensi \n Lokus Internal \nKonsisten</string>
+    <string name="cat_environment_desc">Kemampuan pribadi untuk memilih atau menciptakan lingkungan yang sesuai dengan kondisi mental mereka dan dapat membantu proses mengoptimalkan potensi diri. Menguasai kondisi lingkungan; mampu memilih dan menciptakan lingkungan sehingga sesuai dengan kondisi, dan mampu mengambil keuntungan dan peluang dari lingkungan.</string>
+    <string name="cat_environment_high">Memiliki kesadaran untuk menguasai dan memiliki kompetensi untuk mengelola lingkungan; mampu mengendalikan kompleksitas pengaturan kegiatan eksternal; gunakan peluang di sekitarnya secara efektif; dapat memilih atau menciptakan suasana sesuai dengan kebutuhan dan nilai pribadi. \n Menguasai / memiliki kemampuan untuk mengatur lingkungan \n Mampu mengelola kompleksitas kegiatan yang mereka miliki \n Mampu memilih atau menciptakan suasana sesuai dengan kebutuhan dan nilai pribadi.</string>
+    <string name="cat_environment_low">Sulit mengelola kondisi sehari-hari; merasa tidak mampu mengubah atau meningkatkan suasana di sekitarnya; tidak menyadari peluang; Merasa tidak mampu mengatur dunia luar (kontrol fokus eksternal) \n Sulit mengatur kehidupan sehari-hari \n Sulit untuk mengubah atau meningkatkan kondisi / suasana di lingkungan sekitarnya \n Tidak menyadari peluang \n Merasa tidak mampu mengatur dunia di luar dirinya</string>
+    <string name="cat_environment_skill">\n Kreativitas / Inisiatif \nRegulasi diri</string>
+    <string name="cat_purpose_desc">Kemampuan pribadi untuk menentukan tujuan dan menjadikannya membimbing dalam kehidupan. Memiliki pemahaman tentang tujuan dan makna hidup dan kemudian menjadikannya sebagai arah untuk terus produktif dalam mencapai kehidupan</string>
+    <string name="cat_purpose_high">Memiliki tujuan dalam hidup dan merasa diarahkan; merasa bahwa ada arti hidup hari ini dan masa lalu; memegang iman yang memberikan tujuan dalam hidup \n Memiliki tujuan hidup \n Memahami makna hidup di masa lalu dan masa kini \n Pegang teguh iman / prinsip dalam kehidupan</string>
+    <string name="cat_purpose_low">Perasaan tidak memiliki arti dalam hidup; memiliki sangat sedikit sasaran atau sasaran; merasa kehilangan arah; tidak melihat arti kehidupan lampau; tidak memiliki iman atau kepercayaan yang memberi makna pada kehidupan. \n merasa kosong dalam hidup \n Tidak melihat arti hidup di masa lalu \n Tidak memiliki prinsip / kepercayaan yang memberi makna dalam kehidupan</string>
+    <string name="cat_purpose_skill">\nPenerimaan diri \nPenetapan tujuan \n Manajemen Waktu - skala prioritas</string>
+    <string name="cat_personal_desc">Kemampuan pribadi untuk mempertahankan motivasi untuk terus mengembangkan potensi dan mengaktualisasikan diri dengan selalu berpikiran terbuka dalam menghadapi tantangan. Miliki keinginan untuk terus mengembangkan potensi mereka sendiri dengan bersikap terbuka terhadap pengalaman, tantangan, dan tugas baru. Berkembang secara konstan dan meningkatkan diri</string>
+    <string name="cat_personal_high">Memiliki perasaan untuk terus berkembang; lihat diri Anda sebagai orang yang tumbuh dan berkembang; terbuka dengan pengalaman baru; memiliki perasaan untuk menyadari potensi mereka; melihat perkembangan diri dan perilaku seiring waktu; ada perubahan dalam cara penerapannya yang mencerminkan pengetahuan dan keefektifan diri \n Memiliki keinginan untuk terus mengembangkan diri \n Berpikiran terbuka dengan pengalaman baru \n Keinginan untuk menyadari potensi mereka sendiri \n Pantau pengembangan diri dari waktu ke waktu \n Mengubah perilaku secara konstan berdasarkan pemahaman diri</string>
+    <string name="cat_personal_low">Merasa stagnasi dalam diri Anda; tidak merasakan perkembangan atau ekspansi dari waktu ke waktu; merasa bosan dan tidak menarik dalam hidup; merasa tidak mampu mengembangkan sikap dan perilaku baru. \n Merasakan tidak ada lagi yang perlu dikembangkan dalam dirinya \n Merasa tidak ada perubahan signifikan pada dirinya dari waktu ke waktu \n Merasa bosan dengan kehidupan yang sedang dijalani \n Merasa tidak mampu mengembangkan sikap dan perilaku baru</string>
+    <string name="cat_personal_skill">"Motivasi intrinsik \n Pengetahuan diri - Aktualisasi diri \nMengambil resiko \nPercaya diri \n Tanggung jawab \n Berpikiran Terbuka dengan pengalaman baru "</string>
+    <string name="label_history">Riwayat</string>
 </resources>

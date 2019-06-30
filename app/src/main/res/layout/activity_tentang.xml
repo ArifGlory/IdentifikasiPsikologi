@@ -34,15 +34,68 @@
         android:layout_below="@+id/relaToolbar"
         android:orientation="vertical">
 
-
         <TextView
             android:layout_margin="10dp"
             android:id="@+id/tentang"
             android:layout_marginTop="20dp"
-            android:textSize="18sp"
+            android:textSize="14sp"
             android:text="@string/tentang_text"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:text="Dosen Pembimbing 1 "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:textSize="14sp"
+                android:text="Aristoteles, S.Si., M.Si."
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:text="Dosen Pembimbing 2 "
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:textSize="14sp"
+            android:text="Moch Johan Pratama, M.Psi."
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:text="Dosen Pembahas "
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:textSize="14sp"
+            android:text="Admi Syarif, Dr.Eng."
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 </RelativeLayout>

@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InfoKategoriActivity"></activity>
+        <activity android:name=".DetailKategori"
+            android:label="Detail"></activity>
+        <activity
+            android:name=".InfoKategoriActivity"
+            android:label="Info Kategori" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -27,11 +31,12 @@
         <activity android:name=".Register" />
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".DaftarActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".Histori" />
+        <activity android:name=".Histori"
+            android:label="@string/label_history"/>
         <activity
             android:name=".TentangActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />

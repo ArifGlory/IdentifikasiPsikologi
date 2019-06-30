@@ -66,8 +66,8 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/img_iconlist2"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_centerVertical="true"
                     android:paddingTop="16dp"
                     android:src="@drawable/tentang" />
@@ -121,8 +121,8 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/img_iconlist3"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_centerVertical="true"
                     android:paddingTop="16dp"
                     android:src="@drawable/test" />
@@ -176,8 +176,8 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/img_iconlist4"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_centerVertical="true"
                     android:paddingTop="16dp"
                     android:src="@drawable/test" />
@@ -231,8 +231,8 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/img_iconlist5"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_centerVertical="true"
                     android:paddingTop="16dp"
                     android:src="@drawable/bantuan" />
@@ -286,8 +286,8 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/img_iconlist6"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_centerVertical="true"
                     android:paddingTop="16dp"
                     android:src="@drawable/histori" />
@@ -341,8 +341,8 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/img_iconlist7"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_centerVertical="true"
                     android:paddingTop="16dp"
                     android:src="@drawable/keluar" />

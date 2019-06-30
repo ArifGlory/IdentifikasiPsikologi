@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -54,7 +55,11 @@ public class MainActivity extends AppCompatActivity {
 
                 for(final DataSnapshot child2 : dataSnapshot.getChildren()){
                     id_kat.add(child2.child("id_kategori").getValue().toString());
-                    nama_kat.add(child2.child("nama_kategori").getValue().toString());
+
+                    String nama_kategori = child2.child("nama_kategori").getValue().toString();
+                    Log.d("kategori:",nama_kategori+" & length : "+nama_kategori.length());
+                    nama_kategori = convertKategoriToActiveLang(nama_kategori);
+                    nama_kat.add(nama_kategori);
                 }
 
 
@@ -65,6 +70,57 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    private String convertKategoriToActiveLang(String kategori){
+        String systemLang   = Locale.getDefault().getDisplayLanguage();
+        Resources  res      = getApplicationContext().getResources();
+        int resId;
+        String catTitle = "";
+
+            switch (kategori){
+                case "Autonomi":
+                    catTitle = "cat_autonomy";
+                    resId = res.getIdentifier(catTitle,"string",getApplicationContext().getPackageName());
+                    kategori = res.getString(resId);
+                    break;
+                case "Enviromental Mastery":
+                    catTitle = "cat_environment";
+                    resId = res.getIdentifier(catTitle,"string",getApplicationContext().getPackageName());
+                    kategori = res.getString(resId);
+                    break;
+                case "Self Acceptance ":
+                    catTitle = "cat_self";
+                    resId = res.getIdentifier(catTitle,"string",getApplicationContext().getPackageName());
+                    kategori = res.getString(resId);
+                    Log.d("self acc:",kategori);
+
+                   /* if (systemLang.equals("English")){
+                        kategori = "Self Acceptance";
+                    }else {
+                        kategori = "Penerimaan Diri";
+                    }*/
+
+                    break;
+                case "Purpose In Life":
+                    catTitle = "cat_purpose";
+                    resId = res.getIdentifier(catTitle,"string",getApplicationContext().getPackageName());
+                    kategori = res.getString(resId);
+                    break;
+                case "Positive Relationships With Others":
+                    catTitle = "cat_positive";
+                    resId = res.getIdentifier(catTitle,"string",getApplicationContext().getPackageName());
+                    kategori = res.getString(resId);
+                    break;
+                case "Personal Growth":
+                    catTitle = "cat_personal";
+                    resId = res.getIdentifier(catTitle,"string",getApplicationContext().getPackageName());
+                    kategori = res.getString(resId);
+                    break;
+            }
+
+
+        return kategori;
     }
 
     @Override

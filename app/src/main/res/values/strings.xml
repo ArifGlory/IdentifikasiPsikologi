@@ -4,7 +4,7 @@
     <string name="info_kategori">Information on Psychological Welfare Categories</string>
     <string name="login_greeting">Welcome</string>
     <string name="login_help">Dont have account? Create here</string>
-    <string name="main_about">About Apps</string>
+    <string name="main_about">About</string>
     <string name="main_identification">Psycological Identification</string>
     <string name="main_help">Help</string>
     <string name="main_history">History</string>
@@ -18,12 +18,7 @@
         Department of Computer Science 2018
         \n\n
         Contributor :
-        \n\n
-        Dosen Pembimbing 1 \t: Aristoteles, S.Si., M.Si.
-        \n
-        Dosen Pembimbing 2 \t : Moch Johan Pratama, M.Psi.
-        \n
-        Dosen Pembahas \t : Admi Syarif, Dr.Eng.
+
     </string>
     <string name="help_text">In this Menu you can identify the psychological welfare that is recommended for you based on the statement provided. When the user selects the \"identification\" menu, it will enter the statement identification menu. In this menu statements will appear from each item of psychological well-being.</string>
     <string name="help_btn_start">Start Psycological Test</string>
@@ -47,4 +42,36 @@
     <string name="dialog_change_lang_title">Choose Languange</string>
     <string name="dialog_radio_english">English</string>
     <string name="dialog_radio_indo">Indonesian</string>
+    <string name="item_category_name">Category Name</string>
+    <string name="cat_autonomy">Autonomy</string>
+    <string name="cat_environment">Environment Mastery</string>
+    <string name="cat_self">Self Acceptance</string>
+    <string name="cat_purpose">Purpose in Life</string>
+    <string name="cat_positive">Positive Relationship With Others</string>
+    <string name="cat_personal">Personal Growth</string>
+    <string name="cat_self_desc">The personal’s ability to accept various aspects of themselves, both positive and negative, including acceptance of past experiences. Acceptance of this ultimately fosters a positive attitude towards oneself. Have a positive attitude towards yourself; Positive attitudes are reflected in the acceptance of various aspects of the self, both aspects that are self-strength or aspects that become self-weakness, and accept (feel positive) all past experiences.</string>
+    <string name="cat_self_skill">Self Knowledge \n Self Awareness \n Biographic : games timeline \n Think the opposite</string>
+    <string name="cat_self_high">Have a positive attitude towards yourself, recognize and accept various aspects of themselves both good and bad quality, feel positive about past lives.\n \n Be aware of your strengths \n Recognize your weaknesses \n Take a lesson from past events</string>
+    <string name="cat_self_low">Feeling unsatisfied with yourself, disappointed with what has happened in the past, feel troubled by some self-quality, hope to be someone else. \n Unsatisfied with their current condition \n Feeling troubled by some self-quality \n Feelings or hopes to be someone else \n Feel disappointed with the past</string>
+    <string name="cat_positive_desc">The ability of individuals to establish warm and intimate relationships with others Have a positive relationship with others; Trust other people, have feelings of empathy and affection for others, intimate / deep friendships</string>
+    <string name="cat_positive_high">Have friendliness, satisfaction and trust with others; feel concerned about the welfare / safety of others; have strong empathy, compassion and intimacy, understand the reciprocal concept of human relations \n\n   Trust other people (want to open up) \n  Care (empathy) for the welfare and safety of others \n  Understand the reciprocal concept of take and give</string>
+    <string name="cat_positive_low">Having very few close relationships with others; find it difficult to be friendly, open and caring for others; feeling isolated and frustrated at interpersonal relationships; not willing to compromise to maintain important sustainability relationships with others. \n It is difficult to be open to others \n Feeling isolated or not considered in the social environment \n Feeling depressed in establishing interpersonal relationships \n Do not want to compromise (yield) to maintain important relationships with others</string>
+    <string name="cat_positive_skill">\nInterpersonal communication – empathy \nAssertiveness \nProblem Solving \nNegotiation Skill</string>
+    <string name="cat_autonomy_desc">The personal’s ability to determine personal standards, and assess themselves based on these standards, without being intimidated by the judgment of others. Have personal standards to evaluate themselves, so as not to seek approval or assessment from others. These standards are also used to regulate (regulate) behavior, so that in generating behavior not based solely on culture and collective norms</string>
+    <string name="cat_autonomy_high">Having self determination and independence; able to withstand social pressure to think and act in a certain way; regulating behavior from within; evaluate yourself based on personal standards. \n Have self determination (confidence to achieve something independently) \n Able to maintain confidence in a decision from social pressure / demands \n Able to regulate behavior independently \n Evaluate yourself based on established personal standards</string>
+    <string name="cat_autonomy_low">Paying too much attention about expectations and evaluations from others; depend on judgment from others to make important decisions; submit to social pressure to think and act in a certain way. \n Depends on the influence / judgment of others \n Take decisions based on other people\'s standards \n Behavior is influenced by environmental norms / demands</string>
+    <string name="cat_autonomy_skill">\nSelf Determination \nResiliensi \nLocus Internal \nConsistent</string>
+    <string name="cat_environment_desc">The personal’s ability to choose or create an environment that is in accordance with their mental conditions and can help the process of optimizing self potential. Mastering environmental conditions; able to choose and create the environment so that it is suitable for the condition, and able to take advantage and opportunities from the environment.</string>
+    <string name="cat_environment_high">Have an awareness to master and have the competence to manage the environment; able to control the complexity of the arrangement of external activities; use the opportunities around it effectively; able to choose or create an atmosphere in accordance with personal needs and values. \n Mastering / having the ability to regulate the environment \n Able to manage the complexity of the activities they have \n Able to choose or create an atmosphere in accordance with personal needs and values.</string>
+    <string name="cat_environment_low">Difficult to manage everyday conditions; feel unable to change or improve the atmosphere around it; not aware of opportunities; Feel unable to regulate the outside world (control of external focus) \n It is difficult to regulate everyday life \n Difficult to change or improve conditions / atmosphere in the surrounding environment \n Not aware of the opportunity \n Feel unable to regulate the world outside of him</string>
+    <string name="cat_environment_skill">\nCreativity / Initiative \nSelf Regulation</string>
+    <string name="cat_purpose_desc">The personal’s ability to determine goals and make them guide in life. Have an understanding of the purpose and meaning of life and then make it a direction to continue to be productive in achieving life</string>
+    <string name="cat_purpose_high">Have goals in life and feel directed; feel that there is meaning to life today and the past; holding faith that provide a purpose in life \n Have life goals \n Understand the meaning of life in the past and present \n Hold firm faith / principles in life</string>
+    <string name="cat_purpose_low">Feeling has no meaning in life; have very few goals or objectives; feel lost direction; not seeing the meaning of past life; don’t have faith or beliefs that give meaning to life. \n feeling empty in life \n Not seeing the meaning of life in the past \n Do not have principles / beliefs that give meaning in life</string>
+    <string name="cat_purpose_skill">Self Acceptance \nGoal Setting \nTime Management – priority scale</string>
+    <string name="cat_personal_desc">Personal ability to maintain motivation to continue develop potential and actualize themselves by always being open-minded in the face of challenges. Have the desire to continue to develop their own potential by being open to new experiences, challenges and tasks. Constantly evolving and self-improvement</string>
+    <string name="cat_personal_high">Have a feeling to keep developing; see yourself as a person who grows and develops; open with new experiences; have feelings to realize their potential; see developments in self and behavior over time; there are changes in the way it applies that reflect self-knowledge and effectiveness \n Have the desire to continue to develop themselves \n Open-minded with new experiences \n The desire to realize their own potential \n Monitor self development from time to time \n Constantly changing behavior based on self-understanding</string>
+    <string name="cat_personal_low">Feeling stagnation in yourself; do not feel any development or expansion from time to time; feeling bored and uninteresting in life; feel unable to develop new attitudes and behaviors. \n Feel nothing more needs to be developed in him \n Feel there is no significant change in him from time to time \n Feeling bored with life that is being lived on \n Feel unable to develop new attitudes and behaviors</string>
+    <string name="cat_personal_skill">\nIntrinsic Motivation \nSelf knowledge - Self actualization \nRisk Taking \nSelf confidence \nResponsibility \nOpen-Minded with new experiences</string>
+    <string name="label_history">History</string>
 </resources>

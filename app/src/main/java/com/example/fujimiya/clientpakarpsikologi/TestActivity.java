@@ -44,7 +44,8 @@ public class TestActivity extends AppCompatActivity {
     public int posisi = 0;
     TextView txt_nourut,txt_kategori;
     Button btn_nex,btn_sel;
-    JustifiedTextView txt_isi;
+   // JustifiedTextView txt_isi;
+    TextView txt_isi;
     RadioButton rYes,rNo;
     RadioGroup rgroub;
 
@@ -147,7 +148,6 @@ public class TestActivity extends AppCompatActivity {
                                     });
                                 }
                             }
-
 
                         }
 

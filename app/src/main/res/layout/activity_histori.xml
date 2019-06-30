@@ -3,6 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <LinearLayout
         android:background="@color/white_greyish"
         android:layout_width="match_parent"
@@ -16,6 +21,23 @@
             android:scrollbars="vertical"
             />
     </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/ic_delete_forever_white_24dp"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            tools:ignore="VectorDrawableCompat" />
+
+    </RelativeLayout>
 
 
 
