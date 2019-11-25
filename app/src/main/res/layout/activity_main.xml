@@ -88,6 +88,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/main_about"
+                        android:id="@+id/tvAbout"
                         android:textColor="@color/primary_text_default_material_light"
                         android:textSize="18sp" />
 
@@ -141,6 +142,7 @@
 
                     <TextView
                         android:layout_width="wrap_content"
+                        android:id="@+id/tvPsyiden"
                         android:layout_height="wrap_content"
                         android:text="@string/main_identification"
                         android:textColor="@color/primary_text_default_material_light"
@@ -197,6 +199,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/tvInformasi"
                         android:text="@string/info_kategori"
                         android:textColor="@color/primary_text_default_material_light"
                         android:textSize="18sp" />
@@ -253,6 +256,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/main_help"
+                        android:id="@+id/tvHelp"
                         android:textColor="@color/primary_text_default_material_light"
                         android:textSize="18sp" />
 
@@ -308,6 +312,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/main_history"
+                        android:id="@+id/tvHistory"
                         android:textColor="@color/primary_text_default_material_light"
                         android:textSize="18sp" />
 
@@ -363,6 +368,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/main_logout"
+                        android:id="@+id/tvLogout"
                         android:textColor="@color/primary_text_default_material_light"
                         android:textSize="18sp" />
 

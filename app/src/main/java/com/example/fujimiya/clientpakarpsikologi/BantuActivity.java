@@ -33,12 +33,14 @@ public class BantuActivity extends AppCompatActivity {
     private ArrayList<String> id_kat = new ArrayList<String>();
     private ArrayList<String> nama_kat = new ArrayList<String>();
     Button btnChangeLang;
+    MainActivity mainActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bantu);
         btnChangeLang = findViewById(R.id.btnChangeLang);
+        mainActivity = new MainActivity();
 
        changeLang(this);
 
@@ -63,11 +65,13 @@ public class BantuActivity extends AppCompatActivity {
                             setLangRecreate("en");
                             SharedVariable.activeLang = "en";
                             alert.dismiss();
+
                         }else if (rdIndo.isChecked()){
                             PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).edit().putString("LANG", "in").commit();
                             setLangRecreate("in");
                             SharedVariable.activeLang = "in";
                             alert.dismiss();
+
                         }
                     }
                 });

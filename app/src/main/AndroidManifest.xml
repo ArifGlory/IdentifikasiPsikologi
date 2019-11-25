@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fujimiya.clientpakarpsikologi">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetailKategori"
-            android:label="Detail"></activity>
+        <activity android:name=".PilihKategoriActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+        <activity android:name=".TranslateActivity" />
+        <activity
+            android:name=".DetailKategori"
+            android:label="Detail" />
         <activity
             android:name=".InfoKategoriActivity"
             android:label="Info Kategori" />
@@ -26,7 +33,9 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".TestActivity" />
+        <activity
+            android:name=".TestActivity"
+            android:label="Test" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".Register" />
         <activity
@@ -35,8 +44,9 @@
         <activity
             android:name=".DaftarActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".Histori"
-            android:label="@string/label_history"/>
+        <activity
+            android:name=".Histori"
+            android:label="@string/label_history" />
         <activity
             android:name=".TentangActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />

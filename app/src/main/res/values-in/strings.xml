@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Identifikasi Kesejahteraan Psikologis</string>
-    <string name="splash_text">Pengujian Kesejahteraan Psikologis</string>
+    <string name="no_connection">Koneksi internet tidak ada</string>
+    <string name="splash_text">Pengujian Kesejahteraan Psikologis, RYFF 2014</string>
     <string name="info_kategori">Informasi Kategori Kesejahteraan Psikologis</string>
     <string name="login_greeting">Selamat Datang</string>
     <string name="login_help">Belum Punya akun ? Daftar disini</string>
@@ -75,4 +76,10 @@
     <string name="cat_personal_low">Merasa stagnasi dalam diri Anda; tidak merasakan perkembangan atau ekspansi dari waktu ke waktu; merasa bosan dan tidak menarik dalam hidup; merasa tidak mampu mengembangkan sikap dan perilaku baru. \n Merasakan tidak ada lagi yang perlu dikembangkan dalam dirinya \n Merasa tidak ada perubahan signifikan pada dirinya dari waktu ke waktu \n Merasa bosan dengan kehidupan yang sedang dijalani \n Merasa tidak mampu mengembangkan sikap dan perilaku baru</string>
     <string name="cat_personal_skill">"Motivasi intrinsik \n Pengetahuan diri - Aktualisasi diri \nMengambil resiko \nPercaya diri \n Tanggung jawab \n Berpikiran Terbuka dengan pengalaman baru "</string>
     <string name="label_history">Riwayat</string>
+    <string name="dosbing1">Dosen Pembimbing 1</string>
+    <string name="dosbing2">Dosen Pembimbing 2</string>
+    <string name="pembahas">Pembahas</string>
+    <string name="high_scorer">Nilai Maksimal</string>
+    <string name="low_scorer">Nilai Minimal</string>
+    <string name="skill">Kemampuan</string>
 </resources>

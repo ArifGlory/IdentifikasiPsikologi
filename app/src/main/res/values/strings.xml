@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Identification of Welfare Psychology</string>
-    <string name="splash_text">PSYCHOLOGICAL WELFARE TESTING</string>
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+    <string name="splash_text">PSYCHOLOGICAL WELLBEING, RYFF 2014</string>
     <string name="info_kategori">Information on Psychological Welfare Categories</string>
     <string name="login_greeting">Welcome</string>
     <string name="login_help">Dont have account? Create here</string>
@@ -74,4 +75,10 @@
     <string name="cat_personal_low">Feeling stagnation in yourself; do not feel any development or expansion from time to time; feeling bored and uninteresting in life; feel unable to develop new attitudes and behaviors. \n Feel nothing more needs to be developed in him \n Feel there is no significant change in him from time to time \n Feeling bored with life that is being lived on \n Feel unable to develop new attitudes and behaviors</string>
     <string name="cat_personal_skill">\nIntrinsic Motivation \nSelf knowledge - Self actualization \nRisk Taking \nSelf confidence \nResponsibility \nOpen-Minded with new experiences</string>
     <string name="label_history">History</string>
+    <string name="dosbing1">First Advisor</string>
+    <string name="dosbing2">Second Advisor</string>
+    <string name="pembahas">Examiner</string>
+    <string name="high_scorer">High Scorer</string>
+    <string name="low_scorer">Low Scorer</string>
+    <string name="skill">Skill</string>
 </resources>
