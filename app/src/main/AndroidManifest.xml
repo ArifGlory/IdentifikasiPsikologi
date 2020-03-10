@@ -12,8 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PilihKategoriActivity"
+        <activity android:name=".DisclaimerActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+        <activity
+            android:name=".PilihKategoriActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity android:name=".TranslateActivity" />
         <activity
             android:name=".DetailKategori"

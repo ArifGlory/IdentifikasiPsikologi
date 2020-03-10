@@ -82,4 +82,8 @@
     <string name="high_scorer">Nilai Maksimal</string>
     <string name="low_scorer">Nilai Minimal</string>
     <string name="skill">Kemampuan</string>
+    <string name="disclaimer">Persetujuan</string>
+    <string name="accept">Saya Setuju</string>
+    <string name="disclaimer_description">"Hasil yang didapatkan dari aplikasi ini dapat disikapi dengan menjadikannya sebagai stimulasi untuk pengembangan diri.  \\nHasil dari aplikasi ini bukanlah penilaian mutlak tentang kondisi kesejahteraan psikologis seseorang individu. "</string>
+    <string name="contact_mail">Untuk info lebih lanjut dapat menghubungi email : Ochaaangelica@gmail.com</string>
 </resources>

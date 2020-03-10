@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         changeLang(this);
 
-       // getDataKategori();
+        getDataKategori();
     }
 
     private void getDataKategori(){
@@ -83,7 +83,9 @@ public class MainActivity extends AppCompatActivity {
                     id_kat.add(child2.child("id_kategori").getValue().toString());
 
                     String nama_kategori = child2.child("nama_kategori").getValue().toString();
-                    Log.d("kategori:",nama_kategori+" & length : "+nama_kategori.length());
+                    String id_kategori = child2.child("id_kategori").getValue().toString();
+
+                    Log.d("kategori:",nama_kategori+" & id nya : "+id_kategori);
                     nama_kategori = convertKategoriToActiveLang(nama_kategori);
                     nama_kat.add(nama_kategori);
                 }

@@ -81,4 +81,8 @@
     <string name="high_scorer">High Scorer</string>
     <string name="low_scorer">Low Scorer</string>
     <string name="skill">Skill</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="accept">I Agree</string>
+    <string name="contact_mail">For more information can contact email : Ochaaangelica@gmail.com</string>
+    <string name="disclaimer_description">The results obtained from this application can be treated as self-improvement stimulation. \n The outcome of this application is not an absolute assessment of the psychological well-being of an individual.</string>
 </resources>

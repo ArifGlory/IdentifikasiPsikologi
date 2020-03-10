@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DisclaimerActivity"
+    android:background="@color/colorAccent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/disclaimer"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@drawable/box_login_line"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/judul"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/disclaimer_logo"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="@string/disclaimer_description"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:onClick="btn_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/accept"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:layout_margin="20dp"
+            android:background="@drawable/box_login_line"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:id="@+id/daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="@string/contact_mail"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

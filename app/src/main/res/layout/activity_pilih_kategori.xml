@@ -36,6 +36,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
+                    android:id="@+id/rlAutonomy"
                     android:background="?attr/selectableItemBackground"
                     >
 
@@ -83,6 +84,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
+                    android:id="@+id/rlEnvironment"
                     android:background="?attr/selectableItemBackground"
                     >
 
@@ -130,6 +132,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
+                    android:id="@+id/rlSelf"
                     android:background="?attr/selectableItemBackground"
                     >
 
@@ -177,6 +180,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
+                    android:id="@+id/rlPurpose"
                     android:background="?attr/selectableItemBackground"
                     >
 
@@ -224,6 +228,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
+                    android:id="@+id/rlPositive"
                     android:background="?attr/selectableItemBackground"
                     >
 
@@ -271,6 +276,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
+                    android:id="@+id/rlPersonal"
                     android:background="?attr/selectableItemBackground"
                     >
 
